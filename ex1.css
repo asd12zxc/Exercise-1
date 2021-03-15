@@ -1,0 +1,25 @@
+.griditem{
+	border: 2px solid black;
+	padding: 10px;
+	margin: 10px;
+
+	text-align: left;
+}
+
+.grid{
+	display: grid;
+	grid-template: auto / 200px 550px;
+
+}
+
+#body{
+	background-color: #330000;
+}
+
+#gridhead{
+	background-color: slategray;
+}
+
+#gridcontent{
+	background-color: #666633;
+}
